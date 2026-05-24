@@ -74,5 +74,35 @@
 &kp LSHFT  &trans  &kp LCMD  &kp LALT  &to 0   &trans  &trans    &trans    &to 0     &kp RALT
             >;
         };
+
+        layer4 {
+            label = "SYMBOL";
+            bindings = <
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+            >;
+        };
+
+        layer5 {
+            label = "ARROW";
+            bindings = <
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+            >;
+        };
+
+        layer6 {
+            label = "layer_6";
+            bindings = <
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+&trans     &trans  &trans    &trans    &trans  &trans  &trans    &trans    &trans    &trans
+            >;
+        };
     };
 };
