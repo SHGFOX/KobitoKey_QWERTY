@@ -6,6 +6,7 @@
 
 &mkp_input_listener {
     // マウスキーを押したらAMLを延長
+
     input-processors = <&zip_temp_layer 1 500>;
 };
 
@@ -51,10 +52,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E                        &kp R        &kp T             &kp Y            &kp U        &kp I         &kp O    &kp P
-&kp A             &kp S         &kp D                        &kp F        &kp G             &kp H            &kp J        &kp K         &kp L    &kp SEMI
-&mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V        &kp B             &kp N            &kp M        &kp COMMA     &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &mt LEFT_CONTROL LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1  &lt 3 BACKSPACE  &lt 2 ENTER  &kp LEFT_ALT  &none    &mt RIGHT_ALT BACKSLASH
+&kp Q             &kp W         &kp E                        &kp R                   &kp T                        &kp Y                       &kp U                   &kp I         &kp O    &kp P
+&kp A             &kp S         &kp D                        &kp F                   &kp G                        &kp H                       &kp J                   &kp K         &kp L    &kp SEMI
+&mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V                   &kp B                        &kp N                       &kp M                   &kp COMMA     &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LEFT_CONTROL  &kp LEFT_WIN  &mt LEFT_CONTROL LANGUAGE_2  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 3 LANGUAGE_1  &lt_to_layer_0 3 BACKSPACE  &lt_to_layer_0 2 ENTER  &kp LEFT_ALT  &none    &mt RIGHT_ALT BACKSLASH
             >;
         };
 
