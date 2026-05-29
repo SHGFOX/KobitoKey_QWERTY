@@ -6,7 +6,6 @@
 
 &mkp_input_listener {
     // マウスキーを押したらAMLを延長
-
     input-processors = <&zip_temp_layer 1 500>;
 };
 
@@ -24,6 +23,17 @@
             timeout-ms = <50>;
             key-positions = <12 13>;
             bindings = <&kp TAB>;
+        };
+    };
+
+    behaviors {
+        lt_to_layer_0: lt_to_layer_0 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_TO_0";
+            bindings = <&mo>, <&to_layer_0>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
         };
     };
 
