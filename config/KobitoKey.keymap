@@ -6,6 +6,7 @@
 
 &mkp_input_listener {
     // マウスキーを押したらAMLを延長
+
     input-processors = <&zip_temp_layer 1 500>;
 };
 
@@ -43,6 +44,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
         };
     };
 
